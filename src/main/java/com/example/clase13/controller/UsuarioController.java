@@ -20,4 +20,8 @@ public class UsuarioController {
     public String index(){
         return "usuarios/user";
     }
+    @GetMapping("/listar2")
+    public String aa(){
+        return "usuarios/user";
+    }
 }
