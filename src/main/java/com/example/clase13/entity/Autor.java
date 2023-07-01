@@ -25,7 +25,7 @@ import lombok.NoArgsConstructor;
 public class Autor implements Serializable{
     
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="idautor")
     private int id;
     private String nombres;
